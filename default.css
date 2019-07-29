@@ -1,0 +1,369 @@
+* {
+	padding:0;
+	margin:0;
+	font-family: 'Roboto', sans-serif;
+}
+.buton button {
+	padding: 0 3px;
+	width:39px;
+	height: 33px;
+	text-align: center;
+	font-size: 11px;
+	line-height: 12px;
+	cursor: pointer;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background: rgb(10,73,70);
+	color:#fff;
+	border: 1px solid #f4f4f4;
+	border-radius: 5px;
+	outline: none;
+	position: fixed;
+	z-index: 1234;
+	top:8px;
+	right:10px;
+}
+.buton button a {
+	color:#f4f4f4;
+	text-decoration: none;
+}
+header {
+	background-color: #009688;
+	height: 50px;
+	color: white;
+	line-height:52px;
+	font-variant: small-caps;
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	z-index: 10000;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	letter-spacing: 1px;
+	text-shadow: 1px 1px 2px black, 0 0 10px #009688, 0 0 15px #009688;
+	overflow:hidden;
+}
+header i {
+	display: none;
+	float: right;
+	padding: 18px 15px 18px 10px;
+	text-shadow: 1px 1px 2px black, 0 0 10px #009688, 0 0 15px #009688;
+}
+#permbajtja {
+	width:270px;
+	text-align: center;
+	display: block;
+	float: left;
+}
+#emri {
+	text-align: center;
+}
+#emri a {
+	color: #fff;
+	text-decoration:none;
+}
+#emri a:hover {
+	letter-spacing:2px;
+}
+.nav {
+	width: 270px;
+	position: fixed;
+	top:43px;
+	height:100vh;
+	max-height:100vh;
+	background-color: #009688;
+	z-index:98;
+	overflow: auto;
+	text-shadow: 1px 1px 2px black, 0 0 10px #009688, 0 0 15px #009688;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-transition: 0.3s ease;
+        transition: 0.3s ease;
+}
+
+nav, section {
+        font-family: 'Titillium Web', sans-serif !important;
+}
+.nav ul{
+	margin: 20px 15px 50px 15px;
+	list-style: none;
+}
+.nav ul li a {
+	display: block;
+	padding: 17px 0 5px 5px;
+	border-bottom: 1px solid white;
+	text-decoration: none;
+	color: white;
+	letter-spacing: 1px;
+}
+.nav ul li a:hover {
+	font-weight: 600;
+	letter-spacing: 2px;
+	background-color: #008678
+}
+
+.listimi::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.15);
+    background-color: #009688;
+}
+.listimi::-moz-scrollbar-track {
+    -moz-box-shadow: inset 0 0 5px rgba(0,0,0,0.15);
+    background-color: #009688;
+}
+
+.listimi::-webkit-scrollbar {
+    width: 10px;
+    background-color: #009688;
+}
+.listimi::-moz-scrollbar {
+    width: 10px;
+    background-color: #009688;
+}
+
+.listimi::-webkit-scrollbar-thumb {
+    background-color: #008678;
+    border: 1px solid #007658;
+}
+.listimi::-moz-scrollbar-thumb {
+    background-color: #008678;
+    border: 1px solid #007658;
+}
+
+#kopertina img:last-child {
+	display: none;
+}
+#faqja {
+	margin-left:270px;
+	position: relative;
+	top: 50px;
+}
+section {
+	margin: 1% 5.75%;
+}
+section article:last-child {
+	margin-bottom: 8%;
+}
+article {
+	margin: -4%  0;
+	color: #444;
+	overflow: hidden;
+}
+article p, article ul, article ol {
+	padding: 7px 0;
+}
+article h1, article h2, article h3, article h4, article h5, article h6 {
+	padding: 20px 0 9px 0;
+}
+article h3, article h4, article h5 {
+        letter-spacing: 1px;
+}
+article h4, article h5 {
+	color: #5A5A5A;
+}
+article h3 {
+	font-size: 23px;
+	color: #009688;
+	text-shadow: 0px 1px 1px black, 0 0 10px #fff, 0 0 15px #fff;
+	margin-top: 9%;
+	text-align: left;
+}
+article h4 {
+	font-size: 20px;
+	text-align: left;
+}
+article h5 {
+	font-size: 17px;
+	text-align: left;
+}
+article hr {
+	margin-bottom: 30px;
+	border: 1px solid #009688;
+}
+article p, article li {
+	line-height: 1.6;
+	font-size: 15px;
+}
+article ul, article ol {
+	padding-left: 50px;
+}
+article abbr {
+	text-decoration: underline;
+}
+article li a {
+	font-size: 14px;
+	color: #009688;
+}
+article li a:hover {
+	color: #006658;
+}
+article img {
+	vertical-align: text-bottom;
+        padding: 10px 0 10px 10px;
+}
+#fundi {
+	height: 35px;
+	background-color: #009688;
+	color: #fff;
+	font-size:12px;
+	text-align: center;
+	line-height:35px;
+	text-shadow: 1px 1px 2px black, 0 0 4px #009688, 0 0 8px #009688;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#fundi a {
+	color: #fff;
+}
+
+@media screen and (max-width:1024px) {
+	.nav {
+		top: -100vh;
+	}
+	#faqja {
+		margin-left:0;
+		top:50px;
+	}
+	nav.navigimi {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+		transform: translateY(0);
+		display:block;
+		width: 270px;
+		position: fixed;
+		top:49px;
+		height:100vh;
+		background-color: #009688;
+		z-index:99;
+		overflow: auto;
+		text-shadow: 1px 1px 2px black, 0 0 10px #009688, 0 0 15px #009688;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		-webkit-transition: 0.3s ease;
+    	transition: 0.3s ease;
+	}
+	section {
+		margin: 1% 4.75%;
+	}
+	#permbajtja {
+		cursor:pointer;
+	}
+	#permbajtja:hover {
+		letter-spacing:2px;
+	}
+}
+
+@media screen and (max-width:780px) {
+	#emri h2 {
+		font-size:19px;
+		text-align: left;
+	}
+	article h3 {
+		font-size: 21px;
+		margin-top: 15%;
+		text-align: center;
+	}
+	article h4 {
+		font-size: 19px;
+	}
+	article h5 {
+		font-size: 16px;
+	}
+	section {
+		margin: 1% 2.5%;
+	}
+	article p, article li {
+		font-size: 14px;
+	}
+	article ul, article ol {
+		padding-left: 30px;
+	}
+	article li a {
+		font-size: 12px;
+	}
+	article img.foto_480 {
+		float:none !important;
+		width:100% !important;
+		height: auto !important;
+		padding: 10px 0 !important;
+	}
+}
+
+@media screen and (max-width:645px) {
+	.buton {
+		height: 35px;
+		top:0;
+		position: fixed;
+		width: 100%;
+		background: #009688;
+		z-index:999;
+		text-align: center;
+		line-height: 35px;
+	}
+        .buton button {
+                position: relative;
+                top:-3px;
+                margin-left: 10px;
+        }
+	nav.navigimi {
+		width:100%;
+		font-size:14px;
+		top:80px;
+		text-align: center;
+	}
+	#faqja {
+		top:85px;
+	}
+	header {
+		top:0;
+		height:85px;
+	}
+	header i {
+		display: block;
+		cursor: pointer;
+		position: fixed;
+		top:46px;
+		right:5px;
+		padding:5px;
+	}
+	#emri {
+		position: relative;
+		top: 0;
+		left: 0;
+		right:0;
+		z-index: 999999;
+		width:100%
+	}
+	#emri h2 {
+		font-size: 17px;
+		line-height:54px;
+		text-align: center;
+	}
+	#emri h2 span {
+		font-size:23px;
+	}
+	#emri a:hover {
+		letter-spacing:1px;
+	}
+	#permbajtja {
+		display: none;
+	}
+	#kopertina img:first-child {
+		display: none;
+	}
+	#kopertina img:last-child {
+		display: block;
+	}
+	#kopertina {
+		margin-bottom:25%;
+	}
+	article h3 {
+		font-size: 19px;
+	}
+	article h4 {
+		font-size: 17px;
+	}
+}
+@media screen and (max-width:400px) {
+	#emri h2 {
+		font-size: 14px;
+	}
+	#emri h2 span {
+		font-size:20px;
+	}
+}
